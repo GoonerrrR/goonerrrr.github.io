@@ -1,0 +1,59 @@
+.comunication {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  height: rem(78px); 
+  margin: 0;
+  &__social {
+    width: 50%; 
+  display: flex;  
+  align-items: center; 
+  }
+  &__subscribe {
+    width: 50%; 
+    display: flex;
+    align-items: center;
+  }
+}
+
+.social { 
+  &__title {
+    font-family: Ubuntu;
+    color: $colorbrown;
+    font-size: rem(14px);
+    font-weight: 400;
+    margin-right: rem(30px);
+  }
+  &__img {
+    height: rem(25px);
+    margin-right: rem(20px);
+  }
+}
+
+.form {
+  &__field {
+    width: rem(355px);
+    height: rem(40px);
+    box-sizing: border-box;
+    border: rem(1px) solid #eae9e8;
+    font-family: Ubuntu;
+    font-size: rem(14px);
+    padding-left: rem(27px);
+    letter-spacing: rem(1px);
+    outline: none;
+  }
+  &__submit {
+    cursor: pointer;
+    box-sizing: border-box;
+    height: rem(40px);
+    width: rem(100px);
+    background-color: $colorblue;
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: rem(14px);
+    text-align: center;
+    outline: none;
+    border: none;
+    letter-spacing: rem(2px);
+  }
+}

@@ -1,0 +1,101 @@
+.bestprod {
+	margin-top: rem(50px);
+	position: relative;
+	&__title {
+		font-family: Ubuntu;
+		font-size: rem(24px);
+		font-weight: 400;
+		color: $colorbrown;
+		text-align: center;
+		margin: 0;
+	}
+	&__desc {
+		display: flex;
+		box-sizing: border-box;
+		justify-content: space-between;
+		margin-top: rem(10px);
+	}
+	&__link {
+		text-decoration: none;
+		color: $colorblack;
+		font-family: Ubuntu;
+		font-size: rem(20px);
+	}
+	&__product {
+		margin-top: rem(25px);
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+.product {
+	text-align: center;
+	position: relative;
+	&__title {
+		font-family: Ubuntu;
+		color: $colorblack;
+		font-size: rem(11px);
+		font-weight: 600;
+	}
+	&__price {
+		font-family: Ubuntu;
+		color: $colorblack;
+		font-size: rem(11px);
+		font-weight: 600;
+	}
+	&__left-arrow {
+		position: absolute;
+		top: rem(85px);
+		left: rem(-12px);
+		cursor: pointer;
+	}
+	&__right-arrow {
+		position: absolute;
+		top: 85px;
+		right: -12px;
+		cursor: pointer;
+	}
+}
+
+.link {
+	width: rem(150px);
+	height: rem(191px);
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	&:hover {
+		.link__mask {
+			height: 100%;
+		}
+	}
+	&__img {
+		width: 100%;
+		height: 100%;
+	}
+	&__mask {
+		position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 0%;
+    transition: .5s ease;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+	}
+	&__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: rem(31px);
+		height: rem(31px);
+		box-sizing: border-box;
+		background-color: rgba(250, 250, 250, 1);
+		margin-top: rem(130px);
+		box-sizing: border-box;
+	}
+}

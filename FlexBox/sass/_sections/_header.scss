@@ -1,0 +1,138 @@
+.info {
+	display: flex;
+	height: rem(106px);
+	box-sizing: border-box;
+	justify-content: space-between;
+	&__login-form {
+		font-size: rem(12px);
+		display: flex;
+		box-sizing: border-box;
+		flex-direction: column;
+	}
+	&__logo {
+		box-sizing: border-box;
+		align-items: center;
+		display: flex;
+	}
+	&__right-block {
+		box-sizing: border-box;
+	}
+}
+
+
+
+.login-form {
+	&__log {
+		width: rem(77px);
+		height: rem(30px);
+		box-sizing: border-box;
+		cursor: pointer;
+		font-family: Ubuntu;
+		font-weight: 500;
+		margin-top: rem(23px);
+		border: rem(1px) solid #e5e4e2;
+		border-color: transparent;
+    transition: border-top-color 0.1s linear 0s,
+    border-right-color 0.1s linear 0.07s,
+    border-bottom-color 0.1s linear 0.14s,
+    border-left-color 0.1s linear 0.21s;
+		&:hover {
+			border: 1px solid #e5e4e2;
+			transition: border-top-color 0.1s linear 0s,
+			border-right-color 0.1s linear 0.07s,
+			border-bottom-color 0.1s linear 0.14s,
+			border-left-color 0.1s linear 0.21s;
+		}
+	}
+	&__reg {
+		width: rem(77px);
+		height: rem(30px);
+		box-sizing: border-box;
+		cursor: pointer;
+		font-family: Ubuntu;
+		font-weight: 500;
+		border: rem(1px) solid #e5e4e2;
+		border-color: transparent;
+    transition: border-top-color 0.1s linear 0s,
+    border-right-color 0.1s linear 0.07s,
+    border-bottom-color 0.1s linear 0.14s,
+    border-left-color 0.1s linear 0.21s;
+		&:hover {
+			border: 1px solid #e5e4e2;
+			border: 1px solid #e5e4e2;
+			transition: border-top-color 0.1s linear 0s,
+			border-right-color 0.1s linear 0.07s,
+			border-bottom-color 0.1s linear 0.14s,
+			border-left-color 0.1s linear 0.21s;
+		}
+	}
+}
+
+.logo {
+	&__link {
+		text-decoration: none;
+		color: #3f3d3d;
+	}
+	&__title {
+		margin: 0;
+		font-family: Ubuntu;
+		font-weight: 500;
+		font-size: rem(28px);
+	}
+	&__info {
+		text-align: center;
+		font-family: Ubuntu;
+		font-size: rem(12px);
+	}
+}
+
+.cart {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	margin-top: rem(15px);
+	justify-content: flex-end;
+	&__info {
+		font-family: Ubuntu;
+		font-size: rem(12px);
+		margin-left: rem(12px);
+	}
+	&__btn {
+		margin-left: rem(12px);
+		cursor: pointer;
+		font-family: Ubuntu;
+		font-size: rem(12px);
+		width: rem(100px);
+		height: rem(30px);
+		color: #fff;
+		background-color: $colorblue;
+		box-sizing: border-box;
+	}
+}
+
+.search {
+	position: relative;
+	margin-top: rem(8px);
+	&__form {
+		border: rem(1px) solid #e5e4e2;
+		font-family: Ubuntu;
+		font-size: rem(12px);
+		width: rem(230px);
+		box-sizing: border-box;
+		padding: rem(10px) 0 rem(9px) rem(9px);
+		outline: none;
+	}
+	&__btn {
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding-right: rem(11px);
+		height: 100%;
+		width: rem(25px);
+		cursor: pointer;
+		background-image: url("../../img/svgicons/header/search.svg");
+		background-size: rem(13px) rem(13px);
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+}

@@ -1,0 +1,61 @@
+.instagram {
+	margin: rem(50px) 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	&__title {
+		font-family: Ubuntu;
+		color: $colorbrown;
+		font-size: rem(24px);
+		font-weight: 400;
+		margin-bottom: rem(20px);
+	}
+	&__photo {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+.photo {
+	&__top {
+		width: rem(231px);
+		height: rem(346px);
+		box-sizing: border-box;
+		overflow: hidden;
+		&-img {
+			width: 100%;
+			height: 100%;
+			transition: all 1s ease;
+			cursor: pointer;
+			&:hover {
+				width: 110%;
+				height: 110%;
+			}
+		}
+	}
+	&__bottom {
+		margin-top: rem(16px);
+		width: rem(469px);
+		height: rem(315px);
+		box-sizing: border-box;
+		overflow: hidden;
+		&-img {
+			width: 100%;
+			height: 100%;
+			transition: all 1s ease;
+			cursor: pointer;
+			&:hover {
+				width: 110%;
+				height: 110%;
+			}
+		}
+	}
+}
+
+
+hr {
+	width: 99%;
+	color: #eae9e8;
+	margin: 0;
+}

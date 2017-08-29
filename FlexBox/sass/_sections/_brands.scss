@@ -1,0 +1,23 @@
+.favourite {
+	margin: 0;
+	height: rem(85px);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	box-sizing: border-box;
+	&__title {
+		font-family: Ubuntu;
+		color: $colorbrown;
+		font-size: rem(24px);
+		font-weight: 400;
+		margin: 0;
+	}
+}
+
+.brand {
+	margin-top: rem(30px);
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+}

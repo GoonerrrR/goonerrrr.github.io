@@ -1,0 +1,45 @@
+html { 
+	font-size: 16px;
+
+	@include desktop {
+		font-size: 16px;
+	}
+	
+
+	@include laptop {
+		font-size: 15px;
+	}
+	
+
+	@include tablets {
+		font-size: 14px;
+	}
+	
+
+	@include phones {
+		font-size: 13px;
+	}
+}	
+
+.container {
+	//width: $container-width
+	margin: 0 auto;
+	width: 950px;
+	@include laptop {
+		width: 736px;
+		margin: 0 auto;
+	}
+}	
+
+.btn {
+	background-color: transparent;
+	border: none;
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

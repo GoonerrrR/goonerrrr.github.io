@@ -1,0 +1,27 @@
+//Vaiables
+$colorblue: #4049ca;
+$colorblack: #000000;
+$colorbrown: #414141;
+$Ubuntu: Ubuntu, Arial, sans-serif; 
+
+
+//Layout
+@import "_misc/_fonts.scss";
+@import "_misc/_mixins.scss";
+@import "_misc/_settings.scss";
+@import "_misc/_normalize.scss";
+
+
+
+//Styles
+@import "_sections/_topline.scss";
+@import "_sections/_header.scss";
+@import "_sections/_slider.scss";
+@import "_sections/_nav.scss";
+@import "_sections/_categories.scss";
+@import "_sections/_bestproducts.scss";
+@import "_sections/_specialoffer.scss";
+@import "_sections/_brands.scss";
+@import "_sections/_instagram.scss";
+@import "_sections/_communication.scss";
+@import "_sections/_footer.scss";

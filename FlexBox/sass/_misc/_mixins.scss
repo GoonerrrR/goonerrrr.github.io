@@ -1,0 +1,40 @@
+//Responsive
+
+@mixin desktop {
+	@media screen and (max-width: 1200px) {
+		@content;
+	}
+}
+
+
+@mixin laptop {
+	@media screen and (max-width: 992px) {
+		@content;
+	}
+}
+
+
+@mixin tablets {
+	@media screen and (max-width: 576px) {
+		@content;
+	}
+}
+
+
+@mixin phones {
+	@media screen and (max-width: 320px) {
+		@content;
+	}
+}
+
+@function rem($px) {
+	@return $px / 16px + 0rem;
+}
+
+
+//Change styles
+@mixin ifparent($selector) {
+  #{$selector} & {
+    @content;
+  }
+}
