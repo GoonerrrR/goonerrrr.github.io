@@ -1,14 +1,14 @@
 .instagram {
-	margin: rem(50px) 0;
+	margin: 50px 0;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	&__title {
 		font-family: Ubuntu;
 		color: $colorbrown;
-		font-size: rem(24px);
+		font-size: 24px;
 		font-weight: 400;
-		margin-bottom: rem(20px);
+		margin-bottom: 20px;
 	}
 	&__photo {
 		display: flex;
@@ -19,8 +19,8 @@
 
 .photo {
 	&__top {
-		width: rem(231px);
-		height: rem(346px);
+		width: 231px;
+		height: 346px;
 		box-sizing: border-box;
 		overflow: hidden;
 		&-img {
@@ -35,9 +35,9 @@
 		}
 	}
 	&__bottom {
-		margin-top: rem(16px);
-		width: rem(469px);
-		height: rem(315px);
+		margin-top: 16px;
+		width: 469px;
+		height: 315px;
 		box-sizing: border-box;
 		overflow: hidden;
 		&-img {

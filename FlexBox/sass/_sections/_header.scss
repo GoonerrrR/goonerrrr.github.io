@@ -32,16 +32,16 @@
 		margin-top: rem(23px);
 		border: rem(1px) solid #e5e4e2;
 		border-color: transparent;
-    transition: border-top-color 0.1s linear 0s,
-    border-right-color 0.1s linear 0.07s,
-    border-bottom-color 0.1s linear 0.14s,
-    border-left-color 0.1s linear 0.21s;
+      	transition: border-top-color 0.1s linear 0s,
+      				border-right-color 0.1s linear 0.07s,
+      				border-bottom-color 0.1s linear 0.14s,
+      				border-left-color 0.1s linear 0.21s;
 		&:hover {
 			border: 1px solid #e5e4e2;
 			transition: border-top-color 0.1s linear 0s,
-			border-right-color 0.1s linear 0.07s,
-			border-bottom-color 0.1s linear 0.14s,
-			border-left-color 0.1s linear 0.21s;
+						border-right-color 0.1s linear 0.07s,
+						border-bottom-color 0.1s linear 0.14s,
+						border-left-color 0.1s linear 0.21s;
 		}
 	}
 	&__reg {
@@ -53,17 +53,17 @@
 		font-weight: 500;
 		border: rem(1px) solid #e5e4e2;
 		border-color: transparent;
-    transition: border-top-color 0.1s linear 0s,
-    border-right-color 0.1s linear 0.07s,
-    border-bottom-color 0.1s linear 0.14s,
-    border-left-color 0.1s linear 0.21s;
+      	transition: border-top-color 0.1s linear 0s,
+      				border-right-color 0.1s linear 0.07s,
+      				border-bottom-color 0.1s linear 0.14s,
+      				border-left-color 0.1s linear 0.21s;
 		&:hover {
 			border: 1px solid #e5e4e2;
 			border: 1px solid #e5e4e2;
 			transition: border-top-color 0.1s linear 0s,
-			border-right-color 0.1s linear 0.07s,
-			border-bottom-color 0.1s linear 0.14s,
-			border-left-color 0.1s linear 0.21s;
+						border-right-color 0.1s linear 0.07s,
+						border-bottom-color 0.1s linear 0.14s,
+						border-left-color 0.1s linear 0.21s;
 		}
 	}
 }
@@ -130,7 +130,7 @@
 		height: 100%;
 		width: rem(25px);
 		cursor: pointer;
-		background-image: url("../../img/svgicons/header/search.svg");
+		background-image: url("../../img/SVG icons/header/search.svg");
 		background-size: rem(13px) rem(13px);
 		background-repeat: no-repeat;
 		background-position: center center;

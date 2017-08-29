@@ -25,10 +25,6 @@ html {
 	//width: $container-width
 	margin: 0 auto;
 	width: 950px;
-	@include laptop {
-		width: 736px;
-		margin: 0 auto;
-	}
 }	
 
 .btn {

@@ -24,10 +24,10 @@
 
 html {
   font-size: 16px; }
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1100px) {
     html {
       font-size: 16px; } }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 960px) {
     html {
       font-size: 15px; } }
   @media screen and (max-width: 576px) {
@@ -40,10 +40,6 @@ html {
 .container {
   margin: 0 auto;
   width: 950px; }
-  @media screen and (max-width: 992px) {
-    .container {
-      width: 736px;
-      margin: 0 auto; } }
 
 .btn {
   background-color: transparent;
@@ -663,7 +659,7 @@ template {
     height: 100%;
     width: 1.5625rem;
     cursor: pointer;
-    background-image: url("../../img/svgicons/header/search.svg");
+    background-image: url("../../img/SVG icons/header/search.svg");
     -webkit-background-size: 0.8125rem 0.8125rem;
             background-size: 0.8125rem 0.8125rem;
     background-repeat: no-repeat;
@@ -680,32 +676,17 @@ template {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 440px;
   position: relative; }
-  @media screen and (max-width: 1200px) {
-    .slider {
-      width: 100%; } }
-  .slider__img-tablet {
-    display: block; }
-    @media screen and (max-width: 1200px) {
-      .slider__img-tablet {
-        display: block; } }
-  .slider__block {
+  .slider__img {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    position: relative;
-    background-image: url("../../img/Slider/dreamystore.png");
-    height: 27.5rem;
-    width: 75rem; }
-    @media screen and (max-width: 992px) {
-      .slider__block {
-        background-image: url("../../img/Slider/slidertablet.png");
-        height: 27.5rem;
-        width: 55.75rem; } }
+    position: relative; }
   .slider__left-arrow {
     position: absolute;
     left: 0;
-    padding: 3rem 0.5625rem;
-    top: 10.1875rem;
+    padding: 48px 9px;
+    top: 163px;
     background-color: #fff;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -713,26 +694,26 @@ template {
   .slider__right-arrow {
     position: absolute;
     right: 0;
-    padding: 3rem 0.5625rem;
-    top: 10.1875rem;
+    padding: 48px 9px;
+    top: 163px;
     background-color: #fff;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     cursor: pointer; }
   .slider__dots {
     position: absolute;
-    bottom: 0.5rem;
+    bottom: 8px;
     left: 45%; }
   .slider__title {
     position: absolute;
-    width: 15.625rem;
-    font-size: 3rem; }
+    width: 250px;
+    font-size: 48px; }
 
 .dot {
-  margin: 0 0.625rem;
+  margin: 0 10px;
   cursor: pointer; }
   .dot_active {
-    margin: 0 0.625rem;
+    margin: 0 10px;
     cursor: pointer; }
     .dot_active path {
       fill: #fff; }
@@ -748,37 +729,36 @@ template {
       -ms-flex-direction: column;
           flex-direction: column;
   position: absolute;
-  margin-left: 3.125rem;
-  top: 7.0625rem;
+  top: 113px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
   .collection__title {
     margin: 0;
     font-family: Ubuntu;
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 500;
     text-align: center; }
   .collection__name {
     margin: 0;
     font-family: Ubuntu;
-    font-size: 1.75rem;
+    font-size: 28px;
     font-weight: 400;
     text-align: center;
-    padding: 0.3125rem 0; }
+    padding: 5px 0; }
   .collection__desc {
     margin: 0;
     font-family: Ubuntu;
     text-align: center;
-    font-size: 1.5625rem;
+    font-size: 25px;
     font-weight: 600; }
   .collection__btn {
-    margin-top: 0.625rem;
+    margin-top: 10px;
     font-family: Ubuntu;
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: 500;
     color: #4049ca;
-    border: 0.0625rem solid #4049ca;
-    padding: 0.625rem 0;
+    border: 1px solid #4049ca;
+    padding: 10px 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     cursor: pointer;
@@ -788,7 +768,7 @@ template {
     transition: color 0.3s ease, background 0s ease;
     position: relative;
     z-index: 0;
-    width: 7.5rem; }
+    width: 120px; }
     .collection__btn:after {
       position: absolute;
       content: "";
@@ -875,7 +855,7 @@ template {
       background-color: #e4e4e4; }
 
 .categories {
-  margin-top: 6.3125rem; }
+  margin-top: 3.125rem; }
   .categories .container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1077,8 +1057,8 @@ template {
           box-sizing: border-box;
   width: 14.375rem;
   height: 22.1875rem;
-  margin-right: 0.625rem;
-  margin-top: -4.8125rem; }
+  margin-right: 10px;
+  margin-top: -77px; }
   .forkids__img {
     background-image: url("../../img/Categories/forkids .png");
     width: 100%;
@@ -1113,8 +1093,8 @@ template {
           box-sizing: border-box;
   width: 9.3125rem;
   height: 4.875rem;
-  margin-right: 0.625rem;
-  margin-top: -4.8125rem; }
+  margin-right: 10px;
+  margin-top: -77px; }
   .joinus__img {
     background-image: url("../../img/Categories/joinus.png");
     width: 100%;
@@ -1147,8 +1127,8 @@ template {
           box-sizing: border-box;
   width: 14.3125rem;
   height: 16.6875rem;
-  margin-top: 0.625rem;
-  margin-left: -9.9375rem; }
+  margin-top: 10px;
+  margin-left: -159px; }
   .shoes__img {
     background-image: url("../../img/Categories/shoes.png");
     width: 100%;
@@ -1176,15 +1156,15 @@ template {
   .shoes__link {
     color: #fff;
     font-family: Ubuntu;
-    font-size: 0.8125rem;
+    font-size: 13px;
     text-decoration: none;
     font-weight: 500;
-    letter-spacing: rem1px;
-    border-bottom: rem2px solid #fff;
-    margin-bottom: rem5px;
-    padding-bottom: rem2px; }
+    letter-spacing: 1px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 5px;
+    padding-bottom: 2px; }
     .shoes__link:hover {
-      border-bottom: rem2px solid #414141;
+      border-bottom: 2px solid #414141;
       color: #414141; }
 
 .bags {
@@ -1192,8 +1172,8 @@ template {
           box-sizing: border-box;
   width: 14.3125rem;
   height: 16.6875rem;
-  margin-top: 0.625rem;
-  margin-left: 0.625rem; }
+  margin-top: 10px;
+  margin-left: 10px; }
   .bags__img {
     background-image: url("../../img/Categories/bags.png");
     width: 100%;
@@ -1221,15 +1201,15 @@ template {
   .bags__link {
     color: #fff;
     font-family: Ubuntu;
-    font-size: 0.8125rem;
+    font-size: 13px;
     text-decoration: none;
     font-weight: 500;
-    letter-spacing: 0.0625rem;
-    border-bottom: 0.125rem solid #fff;
-    margin-top: 0.3125rem;
-    padding-bottom: 0.125rem; }
+    letter-spacing: 1px;
+    border-bottom: 2px solid #fff;
+    margin-top: 5px;
+    padding-bottom: 2px; }
     .bags__link:hover {
-      border-bottom: 0.125rem solid #414141;
+      border-bottom: 2px solid #414141;
       color: #414141; }
 
 .bestprod {
@@ -1285,8 +1265,8 @@ template {
     font-weight: 600; }
   .product__left-arrow {
     position: absolute;
-    top: 5.3125rem;
-    left: -0.75rem;
+    top: 85px;
+    left: -12px;
     cursor: pointer; }
   .product__right-arrow {
     position: absolute;
@@ -1295,8 +1275,8 @@ template {
     cursor: pointer; }
 
 .link {
-  width: 9.375rem;
-  height: 11.9375rem;
+  width: 150px;
+  height: 191px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden;
@@ -1340,12 +1320,12 @@ template {
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 1.9375rem;
-    height: 1.9375rem;
+    width: 31px;
+    height: 31px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     background-color: #fafafa;
-    margin-top: 8.125rem;
+    margin-top: 130px;
     box-sizing: border-box; }
 
 .specialoffer {
@@ -1355,15 +1335,15 @@ template {
   display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin: 3.125rem 0;
+  margin: 50px 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
   .specialoffer__img {
     background-image: url("../../img/SpecialOffers/specialOffer.png");
-    width: 75rem;
-    height: 37.5rem;
+    width: 1200px;
+    height: 600px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     display: -webkit-box;
@@ -1374,11 +1354,6 @@ template {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
             align-items: flex-end; }
-    @media screen and (max-width: 1200px) {
-      .specialoffer__img {
-        width: 100%;
-        -webkit-background-size: cover;
-                background-size: cover; } }
   .specialoffer__block {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1391,62 +1366,62 @@ template {
             flex-direction: column;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin-left: 3.125rem;
+    margin-left: 50px;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
     width: 50%;
-    border-top: 0.1875rem solid #fff; }
+    border-top: 3px solid #fff; }
   .specialoffer__title {
     font-family: Ubuntu;
     color: #fff;
-    font-size: 3.125rem;
+    font-size: 50px;
     margin: 0;
     text-align: center;
     font-weight: 500;
-    padding-top: 0.625rem;
+    padding-top: 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative; }
   .specialoffer__name {
     font-family: Ubuntu;
     color: #fff;
-    font-size: 1.875rem;
+    font-size: 30px;
     margin: 0;
     text-align: center;
     font-weight: 400;
-    padding: 0.625rem 0;
+    padding: 10px 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
   .specialoffer__desc {
     font-family: Ubuntu;
     color: #fff;
-    font-size: 2.125rem;
+    font-size: 34px;
     font-weight: 500;
     text-align: center;
     margin: 0;
-    letter-spacing: 0.125rem;
-    padding-bottom: 0.625rem;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     position: relative; }
     .specialoffer__desc::after {
       content: "";
-      border-bottom: 0.1875rem solid #fff;
+      border-bottom: 3px solid #fff;
       position: absolute;
       width: 350%;
       bottom: 0;
-      left: -10.625rem; }
+      left: -170px; }
   .specialoffer__btn {
     cursor: pointer;
-    width: 13.75rem;
+    width: 220px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    border: 0.0625rem solid #fff;
-    padding: 1.375rem 0;
-    margin-bottom: 8.375rem;
-    margin-top: 1.25rem;
+    border: 1px solid #fff;
+    padding: 22px 0;
+    margin-bottom: 134px;
+    margin-top: 20px;
     color: #fff;
     font-weight: 500;
     font-family: Ubuntu;
@@ -1501,7 +1476,7 @@ template {
 
 .favourite {
   margin: 0;
-  height: 5.3125rem;
+  height: 85px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1517,12 +1492,12 @@ template {
   .favourite__title {
     font-family: Ubuntu;
     color: #414141;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
     margin: 0; }
 
 .brand {
-  margin-top: 1.875rem;
+  margin-top: 30px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1539,7 +1514,7 @@ template {
           align-items: center; }
 
 .instagram {
-  margin: 3.125rem 0;
+  margin: 50px 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1553,9 +1528,9 @@ template {
   .instagram__title {
     font-family: Ubuntu;
     color: #414141;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
-    margin-bottom: 1.25rem; }
+    margin-bottom: 20px; }
   .instagram__photo {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1570,8 +1545,8 @@ template {
             justify-content: space-between; }
 
 .photo__top {
-  width: 14.4375rem;
-  height: 21.625rem;
+  width: 231px;
+  height: 346px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden; }
@@ -1587,9 +1562,9 @@ template {
       height: 110%; }
 
 .photo__bottom {
-  margin-top: 1rem;
-  width: 29.3125rem;
-  height: 19.6875rem;
+  margin-top: 16px;
+  width: 469px;
+  height: 315px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden; }
@@ -1620,7 +1595,7 @@ hr {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 4.875rem;
+  height: 78px;
   margin: 0; }
   .comunication__social {
     width: 50%;
@@ -1646,48 +1621,48 @@ hr {
 .social__title {
   font-family: Ubuntu;
   color: #414141;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 400;
-  margin-right: 1.875rem; }
+  margin-right: 30px; }
 
 .social__img {
-  height: 1.5625rem;
-  margin-right: 1.25rem; }
+  height: 25px;
+  margin-right: 20px; }
 
 .form__field {
-  width: 22.1875rem;
-  height: 2.5rem;
+  width: 355px;
+  height: 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 0.0625rem solid #eae9e8;
+  border: 1px solid #eae9e8;
   font-family: Ubuntu;
-  font-size: 0.875rem;
-  padding-left: 1.6875rem;
-  letter-spacing: 0.0625rem;
+  font-size: 14px;
+  padding-left: 27px;
+  letter-spacing: 1px;
   outline: none; }
 
 .form__submit {
   cursor: pointer;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 2.5rem;
-  width: 6.25rem;
+  height: 40px;
+  width: 100px;
   background-color: #4049ca;
   color: #fff;
   font-family: Ubuntu;
-  font-size: 0.875rem;
+  font-size: 14px;
   text-align: center;
   outline: none;
   border: none;
-  letter-spacing: 0.125rem; }
+  letter-spacing: 2px; }
 
 .footer {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  margin-top: 1.25rem;
+  margin-top: 20px;
   background-color: #ededed;
-  height: 10.9375rem; }
+  height: 175px; }
   .footer .container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1711,18 +1686,18 @@ hr {
         -ms-flex-direction: column;
             flex-direction: column; }
   .footer__title {
-    padding: 1.25rem 0;
+    padding: 20px 0;
     font-family: Ubuntu;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 16px;
     color: #414141;
     margin: 0; }
   .footer__link {
     text-decoration: none;
     font-family: Ubuntu;
-    font-size: 0.75rem;
+    font-size: 12px;
     color: #827e7d;
-    padding-bottom: 0.3125rem; }
+    padding-bottom: 5px; }
     .footer__link:hover {
       color: #000000; }
   .footer__nav {
@@ -1742,7 +1717,7 @@ hr {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
-  height: 2.5rem;
+  height: 40px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1763,9 +1738,9 @@ hr {
     text-decoration: none;
     color: #8d8d8d;
     font-family: Ubuntu;
-    font-size: 0.6875rem;
-    padding: 0 0.625rem;
-    border-right: 0.0625rem solid #8d8d8d; }
+    font-size: 11px;
+    padding: 0 10px;
+    border-right: 1px solid #8d8d8d; }
     .footer-info__link:hover {
       color: #fff; }
     .footer-info__link:last-child {
@@ -1795,13 +1770,13 @@ hr {
   .footer-info__text {
     color: #8d8d8d;
     font-family: Ubuntu;
-    font-size: 0.6875rem;
+    font-size: 11px;
     margin: 0; }
 
 .rights__link {
   text-decoration: none;
   color: #8d8d8d;
   font-family: Ubuntu;
-  font-size: 0.6875rem; }
+  font-size: 11px; }
   .rights__link:hover {
     color: #fff; }

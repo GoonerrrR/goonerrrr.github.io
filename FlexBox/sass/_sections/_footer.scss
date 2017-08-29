@@ -1,9 +1,9 @@
 .footer {
   box-sizing: border-box;
   width: 100%;
-  margin-top: rem(20px);
+  margin-top: 20px;
   background-color: #ededed;
-  height: rem(175px);
+  height: 175px;
   .container {
     display: flex;
     justify-content: space-between;
@@ -15,19 +15,19 @@
     flex-direction: column;
   }
   &__title {
-    padding: rem(20px) 0;
+    padding: 20px 0;
     font-family: Ubuntu;
     font-weight: 500;
-    font-size: rem(16px);
+    font-size: 16px;
     color: $colorbrown;
     margin: 0;
   }
   &__link {
     text-decoration: none;
     font-family: Ubuntu;
-    font-size: rem(12px);
+    font-size: 12px;
     color: #827e7d;
-    padding-bottom: rem(5px);
+    padding-bottom: 5px;
     &:hover {
       color: $colorblack;
     }
@@ -44,7 +44,7 @@
 .footer-info {
   box-sizing: border-box;
   width: 100%;
-  height: rem(40px);
+  height: 40px;
   display: flex;
   &__nav {
     box-sizing: border-box;
@@ -56,9 +56,9 @@
     text-decoration: none;
     color: #8d8d8d;
     font-family: Ubuntu;
-    font-size: rem(11px);
-    padding: 0 rem(10px);
-    border-right: rem(1px) solid #8d8d8d;
+    font-size: 11px;
+    padding: 0 10px;
+    border-right: 1px solid #8d8d8d;
     &:hover {
       color: #fff;
     }
@@ -80,7 +80,7 @@
   &__text {
     color: #8d8d8d;
     font-family: Ubuntu;
-    font-size: rem(11px);
+    font-size: 11px;
     margin: 0;
   }
 }
@@ -90,7 +90,7 @@
       text-decoration: none;
       color: #8d8d8d;
       font-family: Ubuntu;
-      font-size: rem(11px);
+      font-size: 11px;
       &:hover {
         color: #fff;
       }
